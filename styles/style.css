@@ -1,0 +1,19 @@
+h1{
+    color: royalblue;
+}
+h1:hover{
+    color: skyblue;
+    background-color: green;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 50px;
+    padding: 50px;
+
+}
+.middle-persion:focus{
+    color: blue;
+    font-weight: 700;
+}
+a:visited{
+    color: red;
+}
