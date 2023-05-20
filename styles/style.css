@@ -17,3 +17,21 @@ h1:hover{
 a:visited{
     color: red;
 }
+li:first-child{
+    color: blueviolet;
+}
+li:last-child{
+   background-color: gray;
+}
+li:nth-child(2n){
+    color: brown;
+}
+li:nth-child(2n+1){
+    background-color: skyblue;
+}
+h3::before{
+    content: 'hello ';
+}
+h3::after{
+    content: ' gelo';
+}
